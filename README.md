@@ -6,18 +6,20 @@
 Java Spring backend for [workout.su]().
 
 #### TODO:
-* Sponsor Service
-* City Service
-* Article Service
-* Video Service
-* User Service
-* Forum Service
-* Event Service
-* Chat Service
+* Sponsor Service 
+* City Service 
+* Team Service 
+* Chat Service 
+* Article Service 
+* Forum Service 
+* News Service 
+* Area Service 
+* Video Service 
+* Photo Service 
+* Event Service 
+* Award Service 
+* Project Service  
+* User Service 
 * Site Notification Service
 * Email Notification Service
-* News Service
-* Area Service
-* Award Service
-* Project Service
 * Authentication/Authorization
