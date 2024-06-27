@@ -5,6 +5,9 @@
 
 Java Spring backend for [workout.su]().
 
+### How to run
+1. sudo docker compose up
+
 #### TODO:
 * Sponsor Service 
 * City Service 

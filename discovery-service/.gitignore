@@ -1,6 +1,3 @@
-workout.yaml
-workout-microservices-design-v.1.0.1.drawio.svg
-
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

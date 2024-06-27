@@ -1,1 +1,19 @@
 version: '3.8'
+services:
+  discovery-server:
+    image: workoutsu/discovery-service:latest
+    container_name: discovery-server
+    ports:
+      - "8761:8761"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+  api-gateway:
+    image: workoutsu/api-gateway:latest
+    container_name: api-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY=TRACE
+    depends_on:
+      - discovery-server
